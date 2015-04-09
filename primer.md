@@ -1,7 +1,8 @@
 # Python Primer
-The purpose of this document is to give the reader a basic understanding of Python. Written by [Andor  Salga](https://asalga.wordpress.com)
+The purpose of this document is to give the reader a basic understanding of Python. Written by [Andor  Salga](https://asalga.wordpress.com). Work in progress...
 
-To begin working with Python, go to the [official site](https://www.python.org/) and navigate to the download section.
+## Starting Out
+To begin working with Python, go to the [official site](https://www.python.org/) and navigate to the download section. Download and install the Python interpreter. You can use this to begin coding. Alternatively, you can learn using an online resource, such as [CodeCademy](http://www.codecademy.com/tracks/python)
 
 ## The Basics
 Some things to keep in mind before starting your Python development:
@@ -13,10 +14,9 @@ Some things to keep in mind before starting your Python development:
 ## Output
 The first thing you need to know is how to write to the console. We do this by using **print**.
 
-    print # prints and empty line
-    print "Hello double quotations!"
     print 'Hello, single quotations!'
-
+    print "Hello double quotations!!"
+    print """Hello TRIPLE quotations!!!"""
 
 
 ## Data Types
@@ -27,10 +27,27 @@ Python has five built-in data types:
 * Tuple
 * Dictionary
 
+## Conditionals
 
+
+## Loops ##
+Similar to other languages, Python has two constructs for loops: for and while.
+
+### while ###
+
+### for ###
+    for i in range(1,3):
+        print i
+    # result:
+    # 1
+    # 2
+    
+
+<hr />
 
 ## Common String Operations
-
+    'make me uppercase'.upper()
+    'MAKE ME LOWER!'.lower()
 
 ## Math Expressions
 Python has a built-in method of raising numbers to an exponent.
@@ -66,6 +83,8 @@ Here is a alphabetized list of Python's keywords:
     
 ## Misc
 Misc....
+
+    print # prints and empty line
 
 
 ## Resources/References
