@@ -1,7 +1,8 @@
 # Python Primer
-The purpose of this document is to give the reader a basic understanding of Python.
+The purpose of this document is to give the reader a basic understanding of Python. Written by [Andor  Salga](https://asalga.wordpress.com)
 
-Some things to keep in mind before starting your Python development
+## The Basics
+Some things to keep in mind before starting your Python development:
 
  * Python is **not** freeform; indentation matters
  * Python is case-sensitive
@@ -13,13 +14,10 @@ To print to the console, use **print**.
     print # prints and empty line
     print "Hello double quotations!"
     print 'Hello, single quotations!'
-    print
 
 ## Data Types
 
 ## Math Expressions
-
-
 Python has a built-in method of raising numbers to an exponent.
 
     twoFiftySix = 2**8;
@@ -33,9 +31,17 @@ Python has a built-in method of raising numbers to an exponent.
 
 ## Classes
 
+
 ## Keyword Reference
 Python does not have many keywords. Here is a alphabetized list:
-
+<!---
+| and | as | assert | break | class | continue | def |
+| -- | -- | -- | -- | -- | -- | -- |
+| del | elif | else | except | 4:2 | 5:2 | 6:2 |
+| 0:3 | 1:3 | 2:3 | 3:3 | 4:3 | 5:3 | 6:3 |
+| 0:4 | 1:4 | 2:4 | 3:4 | 4:4 | 5:4 | 6:4 |
+| 0:5 | 1:5 | 2:5 | 3:5 | 4:5 | 5:5 | 6:5 |
+--->
     and   as     assert break   class  continue def
     del   elif   else   except  exec   finally  for
     from  global if     import  in     is       lambda
