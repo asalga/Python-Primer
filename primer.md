@@ -1,4 +1,11 @@
-<h1>Python Primer</h1>
+# Python Primer
 
+## Output
 
-<h3>Output</h3>
+## Data Types
+
+## Functions
+
+## Variables
+
+## Classes
