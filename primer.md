@@ -21,30 +21,52 @@ The first thing you need to know is how to write to the console. We do this by u
 
 ## Data Types
 Python has five built-in data types:
+
 * Number
 * String
 * List
 * Tuple
 * Dictionary
 
-## Conditionals
+## Variables
+To create a variable, simply assign a value to a label:
 
+    number = 3.14
+    string = 'A snake came to my water-trough...'
+    list = [2,3,5,7,11];
+    tuple = ('pi', 3.14159)
+    dictionary = {'python', 'A large nonvenomous constrictor snake'}
 
-## Loops ##
-Similar to other languages, Python has two constructs for loops: for and while.
+## Control Flow
+We can control the flow of our script with conditionals and loops.
 
-### while ###
+### Conditionals
+We use the **if**, **elif** and **else** keywords to control the flow of our script.
 
-### for ###
+    if(True):
+        print 'This will be printed'
+    
+    if(0 == 1):
+        print 'This will NOT be printed'
+    elif(True == False):
+        print 'This will also not be printed.'
+    else:
+        print 'This will be printed'
+    
+
+#### Loops
+Similar to other languages, Python has two constructs for loops: **for** and **while**.
+
+#### while
+While loops
+
+#### for
     for i in range(1,3):
         print i
     # result:
     # 1
     # 2
     
-
-<hr />
-
 ## Common String Operations
     'make me uppercase'.upper()
     'MAKE ME LOWER!'.lower()
@@ -55,11 +77,10 @@ Python has a built-in method of raising numbers to an exponent.
     twoFiftySix = 2**8;
     
 ## Functions
+We can define a function with the **def** keyword. Note, you must indent all the code you want to be part of the funciton body.
+
     def function():
         return 42
-
-## Variables
-
 
 ## Classes
 
@@ -82,11 +103,12 @@ Here is a alphabetized list of Python's keywords:
     while with   yield
     
 ## Misc
-Misc....
+gotchas, list comprehensions
 
     print # prints and empty line
-
+    len(test)
 
 ## Resources/References
 * https://www.python.org/
 * http://www.codecademy.com/tracks/python
+* 
