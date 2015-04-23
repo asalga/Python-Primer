@@ -1,5 +1,5 @@
 # Python Primer
-The purpose of this document is to give the reader a basic understanding of Python. Written by [Andor  Salga](https://asalga.wordpress.com). Work in progress...
+The purpose of this book is to give the reader a basic understanding of Python. Written by [Andor  Salga](https://asalga.wordpress.com).
 
 ## Starting Out
 To begin working with Python, go to the [official site](https://www.python.org/) and navigate to the download section. Download and install the Python interpreter. You can use this to begin coding. Alternatively, you can learn using an online resource, such as [CodeCademy](http://www.codecademy.com/tracks/python)
